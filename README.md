@@ -1,5 +1,9 @@
 # social_media_app
 
+A MERN Stack Application
+
+########################
+
 Do you need some cheatsheet info for beginning your MERN project? Find it below.
 
 #Simple Reminders for Github
@@ -16,7 +20,10 @@ If you are yet to start your project, do not forget to bind it to your github.
 
 Now, you can pull and push your changes
 
-If you already started your project on your local and want to publish it to your Github,
+Sometimes, especially when you already created local Git within your project but not bind it to your Github,
+VS Code commands may not work.
+
+In such situations, or if you already started your project on your local and want to publish it to your Github,
 you can do it with the following steps.
 
 1. Create a new repo on Github
@@ -43,4 +50,4 @@ you can do it with the following steps.
         using the menu under the Source Control side menu of VS Code.
 
 
-MERN Stack Application
+
