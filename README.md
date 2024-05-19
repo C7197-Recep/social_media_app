@@ -2,7 +2,7 @@
 
 A MERN Stack Application
 
-########################
+########### SECTION-1: GIT Basics #############
 
 Do you need some cheatsheet info for beginning your MERN project? Find it below.
 
@@ -50,4 +50,8 @@ you can do it with the following steps.
         using the menu under the Source Control side menu of VS Code.
 
 
+########### SECTION-2: MERN Flow #############
 
+Knowing the dataflow of a MERN project will help you build it easier. So, here it is:
+
+User Browser -> server/index.js => 
