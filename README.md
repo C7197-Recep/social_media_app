@@ -46,6 +46,12 @@ Start the Client
   cd client
   npm start
 
+Not to Confuse NPM Commands:
+
+npm run dev is used for development with features like hot module replacement, 
+npm run build is used to create an optimized production build, and 
+npm run start is used to run the Next. js server in production mode after the build process is completed.
+
 ########### SECTION-1: GIT Basics #############
 
 Do you need some cheatsheet info for beginning your MERN project? Find it below.
