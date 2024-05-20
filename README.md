@@ -2,6 +2,9 @@
 
 A MERN Stack Application
 
+
+########### SECTION-1: APP INFO #############
+
 Tech Stack
 
 Client: React, Bootstrap
@@ -46,13 +49,7 @@ Start the Client
   cd client
   npm start
 
-Not to Confuse NPM Commands:
-
-npm run dev is used for development with features like hot module replacement, 
-npm run build is used to create an optimized production build, and 
-npm run start is used to run the Next. js server in production mode after the build process is completed.
-
-########### SECTION-1: GIT Basics #############
+########### SECTION-2: GIT Basics #############
 
 Do you need some cheatsheet info for beginning your MERN project? Find it below.
 
@@ -99,7 +96,7 @@ you can do it with the following steps.
     d.  Now, you can stage, commit and sync or publish the changes 
         using the menu under the Source Control side menu of VS Code.
 
-########### SECTION-2: Node Server #############
+########### SECTION-3: Node Server #############
 
 Quick commands to remember:
 
@@ -118,7 +115,13 @@ npm init -y
 Run a node.js app
 node app.js
 
-########### SECTION-2: MERN Flow #############
+Not to Confuse NPM Commands:
+
+npm run dev is used for development with features like hot module replacement, 
+npm run build is used to create an optimized production build, and 
+npm run start is used to run the Next. js server in production mode after the build process is completed.
+
+########### SECTION-3: MERN Flow #############
 
 Knowing the dataflow of a MERN project will help you build it easier. So, here it is:
 
