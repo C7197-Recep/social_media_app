@@ -2,6 +2,50 @@
 
 A MERN Stack Application
 
+Tech Stack
+
+Client: React, Bootstrap
+
+Server: NodeJS, ExpressJS
+
+Database: MongoDB
+
+Run Locally
+Clone the project
+
+  git clone https://github.com/ed-roh/mern-social-media.git
+
+Go to the project directory
+
+  cd mern-app
+
+Create an Mongo DB URL connection parameter in server/.env with your MONGO URL:
+
+MONGO_URL="mongodb+srv://<username>:<password>@cluster0.6cgz2s1.mongodb.net/"
+PORT=3001
+
+Create an hostname on server enviroment variable in client/.env with your hostname on server:
+
+REACT_APP_YOUR_HOSTNAME="http://localhost:3001"
+
+Install dependencies
+
+  cd server
+  npm install
+
+  cd client
+  npm install
+  
+Start the server
+
+  cd server
+  node index.js
+
+Start the Client
+
+  cd client
+  npm start
+
 ########### SECTION-1: GIT Basics #############
 
 Do you need some cheatsheet info for beginning your MERN project? Find it below.
@@ -49,6 +93,24 @@ you can do it with the following steps.
     d.  Now, you can stage, commit and sync or publish the changes 
         using the menu under the Source Control side menu of VS Code.
 
+########### SECTION-2: Node Server #############
+
+Quick commands to remember:
+
+Check your node version 
+node --version
+
+Create a folder
+mkdir testApp
+
+Change directory
+cd testApp
+
+Start NPM server
+npm init -y
+
+Run a node.js app
+node app.js
 
 ########### SECTION-2: MERN Flow #############
 

@@ -26,7 +26,7 @@ const postSchema = mongoose.Schema(
             type: Array,
             default: [],
         }
-    }
+    },
     { timestamps: true}
 )
 
