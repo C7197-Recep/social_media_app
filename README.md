@@ -101,18 +101,33 @@ you can do it with the following steps.
 Quick commands to remember:
 
 Check your node version 
+
 node --version
 
 Create a folder
+
 mkdir testApp
 
 Change directory
+
 cd testApp
 
+Install module
+
+npm install express
+npm install nodemon
+...
+
+Install dependencies
+
+npm install
+
 Start NPM server
+
 npm init -y
 
 Run a node.js app
+
 node app.js
 
 Not to Confuse NPM Commands:
