@@ -3,7 +3,7 @@
 A MERN Stack Application
 
 
-########### SECTION-1: APP INFO #############
+########### SECTION-1: APP INFO & RUNNING THE APP #############
 
 Tech Stack
 
@@ -48,6 +48,8 @@ Start the Client
 
   cd client
   npm start
+
+The next sections are for developers who want to start from scratch this or similar projects.
 
 ########### SECTION-2: GIT Basics #############
 
@@ -106,19 +108,19 @@ node --version
 
 Create a folder
 
-mkdir testApp
+mkdir server
 
 Change directory
 
-cd testApp
+cd server
 
-Install module
+Install modules 
 
 npm install express
 npm install nodemon
 ...
 
-Install dependencies
+Install dependencies (if package already exists)
 
 npm install
 
@@ -133,8 +135,28 @@ node app.js
 Not to Confuse NPM Commands:
 
 npm run dev is used for development with features like hot module replacement, 
+
 npm run build is used to create an optimized production build, and 
+
 npm run start is used to run the Next. js server in production mode after the build process is completed.
+
+########### SECTION-4: React Client #############
+
+Install npx node package executer if not installed
+
+npm i -g npx
+
+Create React App in client folder
+
+npx create-react-app client
+
+Go to client folder
+
+cd client
+
+Install dependencies 
+
+npm i react-redux @reduxjs/toolkit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material
 
 ########### SECTION-3: MERN Flow #############
 
